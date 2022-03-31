@@ -26,7 +26,7 @@ document.getElementById("square").style.width ="300px"
 document.getElementById("square").style.position ="absolute";
 document.getElementById("square").style.top ="20%"
 document.getElementById("square").style.left ="15%"
-document.getElementById("square").style.backgroundImage ="/images/album1.jpg.jpg";
+document.getElementById("square").style.backgroundImage ="\images\Emeli Sandé - Long Live The Angels (Deluxe Edition) (2016).jpg";
 document.getElementById("square").style.zIndex ="5";
 
 
@@ -145,14 +145,25 @@ document.getElementById("song14").style.fontFamily ="sans-serif";
 document.getElementById("song14").style.fontWeight ="bold"
 
 
+play = ()=>{
+    var audio = document.getElementById("aud");
+    audio.play
+  }
+
+
+ var audio1 ="Selah.mp3";
+ var audio2 ="Breathing Underwater.mp3";
 // Onclick functions
 document.getElementById("song1").onclick = function(){
+
     document.getElementById("square").style.display ="block" ;
     document.getElementById("circle").style.display ="block";
-    document.getElementById("img1").src ="/images/album1.jpg.jpg";
-    document.getElementById("img2").src  ="/images/album1.jpg.jpg";
+    document.getElementById("img1").src ="/images/Emeli Sandé - Long Live The Angels (Deluxe Edition) (2016).jpg";
+    document.getElementById("img2").src  ="/images/Emeli Sandé - Long Live The Angels (Deluxe Edition) (2016).jpg";
     document.getElementById("main").style.backgroundColor ="yellow";
     document.getElementById("options").style.right ="15%";
+    document.getElementById("audio1").style.display ="block";
+    // document.getElementById("aud").src =play;
 
 }
 
@@ -163,7 +174,14 @@ document.getElementById("song2").onclick = function(){
     document.getElementById("options").style.right ="15%";
     document.getElementById("img1").src ="/images/album2.jpg.jpg";
     document.getElementById("img2").src  ="/images/album2.jpg.jpg";
+    document.getElementById("audio2").style.display ="block";
+    document.getElementById("audio2").style.position ="absolute";
+    document.getElementById("audio2").style.bottom ="20%";
+    document.getElementById("audio2").style.left ="15%";
 
+    if(audio1 == ""){
+        audio2.play();
+    }
 }
 document.getElementById("song3").onclick = function(){
     document.getElementById("square").style.display ="block" ;
@@ -172,6 +190,10 @@ document.getElementById("song3").onclick = function(){
     document.getElementById("options").style.right ="15%";
     document.getElementById("img1").src ="/images/album1.jpg.jpg";
     document.getElementById("img2").src  ="/images/album1.jpg.jpg";
+    document.getElementById("audio3").style.display ="block";
+    document.getElementById("audio3").style.position ="absolute";
+    document.getElementById("audio3").style.bottom ="20%";
+    document.getElementById("audio3").style.left ="15%";
 
 }
 document.getElementById("song4").onclick = function(){
@@ -181,6 +203,10 @@ document.getElementById("song4").onclick = function(){
     document.getElementById("options").style.right ="15%";
     document.getElementById("img1").src ="/images/album2.jpg.jpg";
     document.getElementById("img2").src  ="/images/album2.jpg.jpg";
+    document.getElementById("audio4").style.display ="block";
+    document.getElementById("audio4").style.position ="absolute";
+    document.getElementById("audio4").style.bottom ="20%";
+    document.getElementById("audio4").style.left ="15%";
 
 }
 document.getElementById("song5").onclick = function(){
@@ -190,6 +216,10 @@ document.getElementById("song5").onclick = function(){
     document.getElementById("options").style.right ="15%";
     document.getElementById("img1").src ="/images/album1.jpg.jpg";
     document.getElementById("img2").src  ="/images/album1.jpg.jpg";
+    document.getElementById("audio5").style.display ="block";
+    document.getElementById("audio5").style.position ="absolute";
+    document.getElementById("audio5").style.bottom ="20%";
+    document.getElementById("audio5").style.left ="15%";
 
 }
 document.getElementById("song6").onclick = function(){
@@ -199,6 +229,10 @@ document.getElementById("song6").onclick = function(){
     document.getElementById("options").style.right ="15%";
     document.getElementById("img1").src ="/images/album2.jpg.jpg";
     document.getElementById("img2").src  ="/images/album2.jpg.jpg";
+    document.getElementById("audio6").style.display ="block";
+    document.getElementById("audio6").style.position ="absolute";
+    document.getElementById("audio6").style.bottom ="20%";
+    document.getElementById("audio6").style.left ="15%";
 
 }
 document.getElementById("song7").onclick = function(){
@@ -208,5 +242,9 @@ document.getElementById("song7").onclick = function(){
     document.getElementById("options").style.right ="15%";
     document.getElementById("img1").src ="/images/album1.jpg.jpg";
     document.getElementById("img2").src  ="/images/album1.jpg.jpg";
+    document.getElementById("audio7").style.display ="block";
+    document.getElementById("audio7").style.position ="absolute";
+    document.getElementById("audio7").style.bottom ="20%";
+    document.getElementById("audio7").style.left ="15%";
 
 }

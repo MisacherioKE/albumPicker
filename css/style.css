@@ -2,3 +2,17 @@
     padding: 0;
     margin: 0;
 }
+#circle{
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 120s;
+    transform: rotate(-90deg);
+}
+@keyframes circle{
+ from{
+     transform: rotate(-90deg);
+ }
+ to{
+     transform: rotate(360deg);
+ }
+}
